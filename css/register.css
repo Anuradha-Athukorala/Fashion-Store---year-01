@@ -1,0 +1,27 @@
+.login-form{
+	border:2px solid black;
+	border-radius:20px;
+	background-color:#b6bdc2;
+	margin-left:400px;
+	margin-top:100px;
+	margin-right:400px;
+	margin-bottom:100px;
+	text-align:center;
+	font-family: "Market Sans",Arial,sans-serif;
+}
+.country{
+	width:150px;
+	height:50px
+	
+}
+.regbtn{
+	width:100px;
+	height:40px;
+	background-color:#61e866;
+	color:white;
+	border:none;
+}
+
+.bradius input{
+	border-radius:5px;
+}

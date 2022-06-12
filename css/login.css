@@ -1,0 +1,47 @@
+.formline{
+	font-family:"Market Sans",Arial,sans-serif;
+}
+.formline{
+	border:2px solid black;
+	border-radius:20px;
+	background-color:#b6bdc2;
+	margin-left:400px;
+	margin-top:100px;
+	margin-right:400px;
+	margin-bottom:100px
+	
+}
+
+.form{
+	
+	text-align:center;
+}
+
+.login{
+	width:70px;
+	height:40px;
+	background-color:#61e866;
+	color:white;
+	border:none;
+}
+
+.bradius input{
+	border-radius:5px;
+}
+.login:hover{
+	opacity:0.8;
+}
+
+.new-acc{
+	background-color:#51dbf0;
+	width:300px;
+	height:30px;
+	border:none;
+}
+.new-acc:hover{
+	opacity:0.8;
+}
+
+.social-login:hover{
+	opacity:0.5;
+}

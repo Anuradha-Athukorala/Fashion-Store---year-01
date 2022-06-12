@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript"></script>
+	<script src="../js/login.js"></script>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Unique Fashions</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<style>
+		body{
+				background-image: url('../images/backgroundimage.jpg');
+				background-size:2900px;
+		}
+	</style>
+</head>
+<body>
+
+<nav class="menu">
+	<img src ="../images/logo.jpeg" width="200px" height="200px">
+	<img class="loginimg"src="../images/login.png" width="100px" height="100px" align="right" align="top" >
+
+
+		<ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="Women.html">Women</a></li>
+                     <li><a href="Men.html">Men</a></li>
+                     <li><a href="cart.html">Cart</a></li>
+                     <li><a href="wishlist.html">Wishlist</a></li>
+                     <li><a href="About us.html">About Us</a></li>
+                     <li><a href="cn.html">Contact Us</a></li>
+              </ul>
+		<a href="login.html"><button class="loginbt">Login</button></a>
+
+
+<form class="search-form" >
+	<input type="text" placeholder="Search">
+	<button class="log-sea">Search</button>
+</form>
+</nav>
+
+
+<div class="formline">
+	<form class="form" id="checkbox" method="POST" action="../php/submitLoggedUserDetails.php">
+		<h3> Sign in </h3>
+		<h5>User Name or email</h5>
+		<div class="bradius">
+			<input type="text" name="username" id="username" dplaceholder="Enter username or email" id="user" style="width:300px;height:20px;" required> <br> <br>
+			<h5>Password</h5>
+			<input type="password" name="password" id="password" placeholder="Enter Password" id="password"  style="width:300px;height:30px; border:none;" required> <br> <br>
+			<input type="submit" value ="Log in" name="login" class="login" id="login" onclick="validateForm()" >
+	</form>
+		</div>
+		
+		<br>
+		<br>
+		<br>
+			<center>
+			New to Unique <a href="Register.html">Register/Create Account</a>
+		<hr>		
+		<br>
+		<br>
+		<br>
+		<br>
+	
+			<a href="https://www.facebook.com/">
+				<img src="../images/fbook.png" alt="sign in with facebook" class="social-login" > 
+			</a>
+		<br>
+		<br>
+			<a href="https://mail.google.com/">
+				<img src="../images/google.png" alt="sign in with gmail"  class="social-login">
+			</a>
+	
+		<br>
+		<br>
+		<br>
+		</center>
+		
+	
+
+</div>
+
+
+<div class="footer">
+	<p align="center"><font color="7897A2">&copy Copyright @2020 All Rights Reserved</font></p>
+	<center>
+		<p style="font-style: sans-serif; font-size:20px;">About Us</p><br>
+		Unique Fashion is a Global platform with millions of users.<br>Our ecommerce site offers many different styles that “combine heritage with modernity, simplicity<br> with playfulness, and street style with understated elegance
+
+	</center>
+
+<P style="margin-left:10px; "align="left">
+	<i style="font-size:20px; margin-bottom: 2px;" class="fa">&#xf095;</i> 123-456-789<br>
+	<i style="font-size:20px; margin-bottom: 2px;" class="fa">&#xf0e0;</i>info@uniquefashions.com
+<br>
+
+<img src="../images/payment.png" align="left" width="250px" height="50px" class="paymentImg" >
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+<a href="https://www.google.com/account/about/" class="fa fa-google"></a>
+<a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+	
+</P>
+
+
+	
+</div>
+
+
+</body>
+</html>

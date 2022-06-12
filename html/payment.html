@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript"></script>
+	<script src="../js/ValidationScript.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Unique Fashions</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<style>
+		body{
+				background-image: url('../images/backgroundimage.jpg');
+				background-size: cover;
+		}
+	</style>
+</head>
+<body>
+<nav class="menu">
+	<img src ="../images/logo.jpeg" width="200px" height="200px">
+	<img class="loginimg"src="../images/login.png" width="100px" height="100px" align="right" align="top" >
+
+
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Women.html">Women</a></li>
+			<li><a href="Men.html">Men</a></li>
+			<li><a href="cart.html">Cart</a></li>
+			<li><a href="wishlist.html">Wishlist</a></li>
+			<li><a href="About us.html">About Us</a></li>
+			<li><a href="cn.html">Contact Us</a></li>
+		</ul>
+		<a href="login.html"><button class="loginbt">Login</button></a>
+
+
+<form class="search-form">
+	<input type="text" placeholder="Search">
+	<button>Search</button>
+</form>
+</nav>
+
+<div class="content">
+
+<div class="formContainer2">
+	<center><p style="font-size: 30px; font-style: sans-serif; margin-top: -30px; font-weight: bold;">Payment</p></center>
+	<hr style="height: 2px; width: 1355px; background:#CFCFCF; margin-left: -70px; margin-right: 20px;">
+
+	<form name="paymentForm" action="../php/submitPaymentDetails.php"  method="POST">
+
+	<i style="font-size:24px" class="fa">&#xf2be;</i>
+	<label for="nameOnCard">Name &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+	<input style="width: 1000px; height: 55px; background:#e3e3e3;" class="nameOnCard" type="text" id="nameOnCard" name="nameOnCard" required>
+	<hr style="height: 2px; width: 1355px; background:#CFCFCF; margin-left: -70px; margin-right: 20px;">
+
+	<i style="font-size:24px" class="fa">&#xf09d;</i>Card Number &nbsp &nbsp &nbsp&nbsp
+	<input style="width: 1000px; height:55px; background:#e3e3e3;" class="cardNumber" type="text" name="cardNumber" id="cardNumber" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+	<hr style="height: 2px; width: 1355px; background:#CFCFCF; margin-left: -70px; margin-right: 20px;">
+
+	<i style="font-size:24px" class="fa">&#xf073;</i>
+	Expiry &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input style="background:#e3e3e3; height: 55px;" class="expMonth" type="text" name="expMonth" id="expMonth" placeholder="MM" pattern="[0-9]{2}"  required>
+		   <input style="background:#e3e3e3; height: 55px;" class="expYear" type="text" name="expYear" id="expYear" placeholder="YYYY" pattern="[0-9]{4}"  required>
+	<hr style="height: 2px; width: 1355px; background:#CFCFCF; margin-left: -70px; margin-right: 20px;">
+
+	<i style="font-size:24px" class="fa">&#xf132;</i>CVV &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<input style="width: 500px; height: 55px; background:#e3e3e3;" class="cvvNumber" type="text" name="cvvNumber" id="cvvNumber" placeholder="123" pattern="[0-9]{3}"  required><label style="color:  #536f70">CVV is the three digit number on back of your card</label><br><br>
+	<hr style="height: 2px; width: 1355px; background:#CFCFCF; margin-left: -70px; margin-right: 20px;">
+
+
+	<input type="submit" class="confirmPaymentDetails" name="confirmPaymentDetails" id="confirmPaymentDetails" value="Confirm Payment Details" onclick="confirmAlert();checkDetails()" >
+
+
+	</form>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+<div class="footer">
+	<p align="center"><font color="7897A2">&copy Copyright @2020 All Rights Reserved</font></p>
+	<center>
+		<p style="font-style: sans-serif; font-size:20px;">About Us</p><br>
+		Unique Fashion is a Global platform with millions of users.<br>Our ecommerce site offers many different styles that “combine heritage with modernity, simplicity<br> with playfulness, and street style with understated elegance
+
+	</center>
+
+<P style="margin-left:10px; "align="left">
+	<i style="font-size:20px; margin-bottom: 2px;" class="fa">&#xf095;</i> 123-456-789<br>
+	<i style="font-size:20px; margin-bottom: 2px;" class="fa">&#xf0e0;</i>info@uniquefashions.com
+<br>
+
+<img src="../images/payment.png" align="left" width="250px" height="50px" class="paymentImg" >
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+<a href="https://www.google.com/account/about/" class="fa fa-google"></a>
+<a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+	
+</P>
+
+
+	
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+.wishlistItems{
+	width: 1000px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.heading{
+    text-align: center;
+    font-size: 45px;
+    font-style: serif;
+    font-family: georgia;
+}
+.cartBttn{
+	width: 200px;
+	height: 35px;
+	background:#00C5D3;
+	border-radius: 10px;
+    border:none;
+    color:white;
+    font-family:sans-serif;
+    font-size: 16px;
+    padding: 7px;
+}
+.cartBttn:hover{
+	opacity: 0.5;
+}
+.remove-button{
+    color: white;
+    background-color: #929292;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.remove-button:hover {
+    background-color: #CC4C4C;
+}
+
